@@ -9,7 +9,7 @@
 
 #Include Radial_Menu.ahk
 
-mButton::
+XButton2::
 {
     GMenu := Radial_Menu()
 
@@ -20,7 +20,7 @@ mButton::
     GMenu.Add("Save", "Images/analysis_meas_distance16.gif", 1, (*)=> (MsgBox("Callbacktest")))
     GMenu.Add("Save2", "Images/smt_flat_wall_mt.gif", 2)
     GMenu.Add2("Save2special", "Images/analysis_meas_distance16.gif", 2, (*)=> (MsgBox("Callbacktest2")))
-    GMenu.SetKey("mbutton")
+    GMenu.SetKey("Xbutton2")
     GMenu.SetKeySpecial("Ctrl")
     GMenu.Add("Save3", "", 3)
     GMenu.Add("Save4", "Images/smt_flat_wall_mt.gif", 4)
